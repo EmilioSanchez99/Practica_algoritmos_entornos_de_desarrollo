@@ -26,6 +26,16 @@ public abstract class Algoritmos {
         
 	}
 	
+	public static boolean esPrimo(int a) {
+		boolean primo = true; 
+	    for(int i = 2; i < a; i++) {
+	        if (a % i == 0) {
+	            primo = false;
+	            break;
+	        }
+	    }
+	    return primo;
+	}
 	
 	
 	   
