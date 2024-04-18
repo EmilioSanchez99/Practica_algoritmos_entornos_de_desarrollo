@@ -26,7 +26,7 @@ public abstract class Algoritmos {
 	 * @return devuelve la secuencia factorial del numero insertado
 	 */
 	public static int factorial(int a) {
-		int factorial=0;
+		int factorial=1;
 		
 		for (int i = 1; i <= a; i++) {
             factorial = factorial * i;
