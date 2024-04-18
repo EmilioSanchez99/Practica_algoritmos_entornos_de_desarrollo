@@ -2,6 +2,11 @@ package util;
 
 public abstract class Algoritmos {
 	
+	/**
+	 * 
+	 * @param a numero a calcular fibonacci
+	 * @return devuelve la secuencia de fibonacci del numero insertado
+	 */
 	public static int fibonacci (int a) {
 		if (a==0) {
 			return 0;
@@ -15,7 +20,11 @@ public abstract class Algoritmos {
 		}
 	
 	}
-
+	/**
+	 * 
+	 * @param a numero a calcular el factorial	
+	 * @return devuelve la secuencia factorial del numero insertado
+	 */
 	public static int factorial(int a) {
 		int factorial=0;
 		
@@ -26,6 +35,11 @@ public abstract class Algoritmos {
         
 	}
 	
+	/**
+	 * 
+	 * @param a  numero a comprobar si es primo
+	 * @return	devuelve true si es primo, false si no lo es
+	 */
 	public static boolean esPrimo(int a) {
 		boolean primo = true; 
 	    for(int i = 2; i < a; i++) {
